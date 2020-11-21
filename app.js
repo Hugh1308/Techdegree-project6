@@ -47,7 +47,7 @@ const phrases = [
 function getRandomPhraseAsArray(arr){
   let randomPhrase = Math.floor(Math.random() * phrases.length);
   let randomWord = arr[randomPhrase];
-  let splitPhrase = randomWord.split('');
+  return randomWord.split('');
 }
 
 const phraseArray = getRandomPhraseAsArray(phrases);
@@ -65,4 +65,4 @@ function addPhraseToDisplay(arr){
     }
   }
 }
-addPhraseToDisplay(arr);
+addPhraseToDisplay(phraseArray);
