@@ -1,2 +1,0 @@
-# Techdegree-project6
- 
